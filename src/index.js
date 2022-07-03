@@ -15,4 +15,4 @@ app.use(authRouter);
 app.use(validaToken, registrosRouter);
 
 const PORT = process.env.PORT || 5001;
-app.listen(PORT, () => console.log("Estou rodando!"));
+app.listen(PORT, () => console.log("Estou rodando na porta" + PORT));
